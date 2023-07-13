@@ -84,19 +84,21 @@ section .formulario, .mapa .formulario, article .formulario {
   align-items: center;
 }
 section .formulario .inputform, .mapa .formulario .inputform, article .formulario .inputform {
+  border-radius: 0.5rem;
   margin: 2rem;
   width: 50%;
   background-color: #ffffff;
 }
 section .formulario input::placeholder, .mapa .formulario input::placeholder, article .formulario input::placeholder {
+  text-align: center;
   color: #000000;
 }
-section .registro, .mapa .registro, article .registro, section .login, .mapa .login, article .login {
-  margin-left: 25rem;
-  width: 50%;
-  height: 15rem;
-  display: grid;
-  justify-items: center;
+section .reset, .mapa .reset, article .reset,
+section .submit,
+.mapa .submit,
+article .submit {
+  background-color: #d3d3d3;
+  border-radius: 1rem;
 }
 
 article {

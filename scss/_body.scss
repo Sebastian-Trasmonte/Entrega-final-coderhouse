@@ -30,26 +30,25 @@ section {
 
 
         .inputform {
+            border-radius: 0.5rem;
             margin: 2rem;
             width: 50%;
             background-color: $color-blanco;
         }
 
         input::placeholder {
+            text-align: center;
             color: $color-negro;
         }
     }
-    
 
-
-    .registro, .login {
-        margin-left: 25rem;
-        width: 50%;
-        height: 15rem;
-        display: grid;
-        justify-items: center;
+    .reset,
+    .submit {
+        background-color: $color-gris;
+        border-radius: 1rem;
     }
-    
+
+
 }
 
 article {
