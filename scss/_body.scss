@@ -1,0 +1,79 @@
+@import "./colores";
+
+section {
+    width: 100%;
+    height: 100%;
+
+    .carrusel {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        padding: 1.5rem;
+
+        .zapatillas {
+            height: 20rem;
+            width: 25rem;
+            display: flex;
+            flex-direction: row;
+            padding: 2rem;
+        }
+    }
+
+    .formulario {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        padding: 2rem;
+        align-items: center;
+
+
+        .inputform {
+            margin: 2rem;
+            width: 50%;
+            background-color: $color-blanco;
+        }
+
+        input::placeholder {
+            color: $color-negro;
+        }
+    }
+    
+
+
+    .registro, .login {
+        margin-left: 25rem;
+        width: 50%;
+        height: 15rem;
+        display: grid;
+        justify-items: center;
+    }
+    
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    @extend section;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    .navegacion {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 5rem;
+
+        .etiquetas {
+            padding: 2rem;
+
+            .navigation {
+                background-color: $color-gris;
+                border-radius: 1rem;
+            }
+        }
+    }
+}

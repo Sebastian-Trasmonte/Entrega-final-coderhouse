@@ -1,0 +1,20 @@
+@import "./header",
+"./footer",
+"./mediaquerys",
+"./body",
+"./style-pages/catalogos.scss",
+"./style-pages/contacto.scss",
+"./style-pages/locales.scss",
+"./style-pages/log-registro.scss",
+"./style-pages/nosotros.scss",
+"./colores";
+
+* {
+    background-color: $color-principal;
+    font-family: "rock";
+}
+
+@font-face {
+    font-family: "rock";
+    src: url(../fonts/RocknRollOne-Regular.ttf);
+}

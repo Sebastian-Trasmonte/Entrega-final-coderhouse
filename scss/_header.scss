@@ -1,0 +1,12 @@
+@import "./colores";
+header {
+    width: 100%;
+    background-color: $color-gris;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+.bi-search {
+    background-color: transparent;
+}
